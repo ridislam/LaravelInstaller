@@ -4,8 +4,8 @@ namespace RidIslam\LaravelInstaller\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use RehanTariq\LaravelInstaller\Middleware\canInstall;
-use RehanTariq\LaravelInstaller\Middleware\canUpdate;
+use RidIslam\LaravelInstaller\Middleware\canInstall;
+use RidIslam\LaravelInstaller\Middleware\canUpdate;
 
 class LaravelInstallerServiceProvider extends ServiceProvider
 {
